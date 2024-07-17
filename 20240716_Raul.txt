@@ -1,0 +1,17 @@
+라울한테는 adiabatic_T1-S0를 예측하는 모델이 있음
+
+lumo-homo 예측 모델은 개발 중
+
+adiabatic_T1-S0 예측에 사용한 데이터를 adiabatic_S1-S0, reduction_S0, oxidation_S0를 예측하는데 사용하려고 함 (전이 학습) -> 이게 괜찮은지 변수들 간의 상관관계를 파악하는 거임
+
+마찬가지로 lumo-homo 예측에 사용한 데이터를 adiabatic_S1-S0, reduction_S0, oxidation_S0를 예측하는데 사용해도 괜찮은지 변수들 간의 상관관계를 파악하는 거임
+
+추가적으로 예측한 adiabatic_T1-S0 데이터를 다른 특성 예측에 사용할 수 있는지 상관관계를 파악하는 거임
+
+Candidate Correlation들은 다 plot 해봐야 함
+
+R^2 대신에 MAE나 RMSE 보는 것도 추천
+
+plot, formula 사용
+
+하나씩 파악이 끝나면 다중회귀도 해보삼
