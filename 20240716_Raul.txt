@@ -15,3 +15,9 @@ R^2 대신에 MAE나 RMSE 보는 것도 추천
 plot, formula 사용
 
 하나씩 파악이 끝나면 다중회귀도 해보삼
+
+Actual Value의 Standard Deviation과 MAE 값을 비교, MAE가 S.E.보다 크면 안좋은 모델
+
+라울의 Transfer Learning 모델과 나의 Symbolic Model을 비교할거임
+
+그래서 Transfer Learning 대상 property인 adiabatic S1-S0, Oxidation, Reduction 부터 모델 만들어보삼
