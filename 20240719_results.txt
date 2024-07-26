@@ -11,11 +11,9 @@ adiabatic T1-S0 & 0-0 T1
 2차 계수 0: Linear 사용
 oxidation S0 & homo -> 반대 친구들 역함수 고려해봐야 함
 reduction S0 & lumo -> 반대 친구들 역함수 고려해봐야 함
+adiabatic S1-S0 & vertical excitation energy -> 반대 친구들 역함수 고려해봐야 함
 dipole moment norm S1 & dipole moment norm S0
 dipole moment norm S0 & dipole moment norm S1
-
-3차 계수 0: Quadratic 사용
-adiabatic S1-S0 & vertical excitation energy -> 반대 친구들 역함수 고려해봐야 함
 
 Quadratic:
 lumo-homo & vertical excitation energy -> 반대 친구들 역함수 고려해봐야 함
